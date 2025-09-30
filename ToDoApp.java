@@ -65,5 +65,3 @@ public class ToDoApp extends JFrame {
         SwingUtilities.invokeLater(ToDoApp::new);
     }
 }
-
-
