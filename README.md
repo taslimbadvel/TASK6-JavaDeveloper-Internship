@@ -16,7 +16,7 @@ This project was built as part of the Java Developer Internship Task.
 
 ## Technologies Used
 
-- Java (JDK 17+ recommended)
+- Java (JDK 17)
 - Swing Components:
   - `JFrame` → main window
   - `JTextField` → input field
