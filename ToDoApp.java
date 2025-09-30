@@ -57,7 +57,7 @@ public class ToDoApp extends JFrame {
         if (selectedIndex != -1) {
             taskListModel.remove(selectedIndex);
         } else {
-            JOptionPane.showMessageDialog(this, "Select a task to delete");
+            JOptionPane.showMessageDialog(this, "Select a task to Delete");
         }
     }
 
