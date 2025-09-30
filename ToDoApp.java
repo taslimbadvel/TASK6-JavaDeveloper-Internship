@@ -48,7 +48,7 @@ public class ToDoApp extends JFrame {
             taskListModel.addElement(task);
             taskField.setText("");
         } else {
-            JOptionPane.showMessageDialog(this, "Enter a task first!");
+            JOptionPane.showMessageDialog(this, "Enter a task first");
         }
     }
 
@@ -57,7 +57,7 @@ public class ToDoApp extends JFrame {
         if (selectedIndex != -1) {
             taskListModel.remove(selectedIndex);
         } else {
-            JOptionPane.showMessageDialog(this, "Select a task to delete!");
+            JOptionPane.showMessageDialog(this, "Select a task to delete");
         }
     }
 
